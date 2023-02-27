@@ -1,0 +1,23 @@
+.main {
+  /* text-align: center;     */
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: grey; */
+}
+body {
+  background-image: url("images/Bg1.jpg");
+}
+
+.timer {
+  display: grid;
+}
+.stopwatch {
+  display: grid;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}

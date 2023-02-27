@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stopwatch.css" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <div class="addTimer">
+      <label for="hr">Hrs:</label>
+      <input type="text" id="hr" />
+
+      <label for="min">Mins:</label>
+      <input type="text" id="min" />
+
+      <label for="sec">Sec:</label>
+      <input type="text" id="sec" />
+    </div>
+    <div class="btn">
+      <button onclick="start()">start</button>
+      <!-- <button onclick="reset1()">reset</button> -->
+    </div>
+    <div class="main-container center">
+      <div class="circle-container center">
+        <div class="semicircle"></div>
+        <div class="semicircle"></div>
+        <div class="semicircle"></div>
+        <div class="outermost-circle"></div>
+      </div>
+
+      <div class="timer-container center">
+        <div class="timer center"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
